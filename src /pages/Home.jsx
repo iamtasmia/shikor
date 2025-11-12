@@ -1,22 +1,10 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import AboutPreview from '../components/AboutPreview'
-import WorkExperience from '../components/WorkExperience'
-import Brands from '../components/Brands'
-import PartnerBrands from '../components/PartnerBrands'
-import PortfolioPreview from '../components/PortfolioPreview'
-import Team from '../components/Team'
-
 export default function Home() {
   return (
-    <div className="pt-16">
-      <Hero />
-      <AboutPreview />
-      <WorkExperience />
-      <Brands />
-      <PartnerBrands />
-      <PortfolioPreview />
-      <Team />
-    </div>
-  )
+    <section className="min-h-[80vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-green-100 to-white px-6">
+      <h1 className="text-5xl font-bold text-green-700 mb-4">Welcome to Shikor</h1>
+      <p className="max-w-2xl text-gray-700">
+        Empowering lives and communities through education, livelihood, and sustainable development.
+      </p>
+    </section>
+  );
 }
